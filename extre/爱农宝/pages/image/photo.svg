@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#009686;}
+	.st1{clip-path:url(#XMLID_82_);fill:#FFFFFF;}
+	.st2{fill:#FFFFFF;}
+</style>
+<ellipse id="XMLID_80_" class="st0" cx="50.1" cy="49.4" rx="44.5" ry="44.7"/>
+<g id="XMLID_79_">
+	<g id="XMLID_176_">
+		<defs>
+			<rect id="XMLID_134_" x="22.4" y="28.9" width="55.2" height="40.6"/>
+		</defs>
+		<clipPath id="XMLID_82_">
+			<use xlink:href="#XMLID_134_"  style="overflow:visible;"/>
+		</clipPath>
+		<path id="XMLID_178_" class="st1" d="M74.2,34.6h-7l-5.7-5.7H47.8l-5.7,5.7H25.9c-1.9,0-3.4,1.5-3.4,3.4v28c0,1.9,1.5,3.4,3.4,3.4
+			h48.4c1.9,0,3.4-1.5,3.4-3.4V38C77.7,36.1,76.1,34.6,74.2,34.6L74.2,34.6z M54.7,64.6c-7,0-12.6-5.6-12.6-12.6
+			c0-7,5.6-12.6,12.6-12.6c7,0,12.6,5.6,12.6,12.6C67.3,59,61.7,64.6,54.7,64.6L54.7,64.6z M54.7,64.6"/>
+	</g>
+	<path id="XMLID_142_" class="st2" d="M47.1,52c0,4.2,3.4,7.6,7.6,7.6s7.6-3.4,7.6-7.6s-3.4-7.6-7.6-7.6S47.1,47.8,47.1,52L47.1,52z
+		 M47.1,52"/>
+</g>
+</svg>

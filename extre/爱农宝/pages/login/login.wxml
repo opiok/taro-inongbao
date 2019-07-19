@@ -1,0 +1,34 @@
+<!--pages/login/login.wxml-->
+<view class="index">
+  <view class="logo">
+    <image src="../image/矢量智能对象@2x.png"></image>
+  </view>
+  <view class="Form">
+    <form>
+      <view class="phone">
+          <image class="svg" src="../image/phone.svg"></image> 
+          <input type="text" placeholder="请输入手机号码"                             placeholder-style="font-size:12px;"></input>
+          <image class="Delete" src="../image/删除.svg"></image> 
+      </view>
+
+      <view class="pwd">
+           <image class="svg" src="../image/pwd.svg"></image> 
+           <input type="password" placeholder="请输入6-16位密码"                       placeholder-style="font-size:12px;"></input>
+          <image class="Delete"src="../image/eye-close.svg"></image> 
+      </view>
+
+   
+         <button class="btn">登录</button>
+      <view class="Other">
+     <text style="float:right;">忘记密码？</text>
+      </view>
+    </form>
+  </view>
+    <view class="Footer" >
+        <text style=" z-index: 2;position:relative;top:165px;font-size:11px;">版本号:0.5.1</text>
+    <image class="Footer_bg" src="../image/底部装饰背景@2x.png" >
+
+    </image>
+
+    </view>
+</view>

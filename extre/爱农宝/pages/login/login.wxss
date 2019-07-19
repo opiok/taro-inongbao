@@ -1,0 +1,73 @@
+/* pages/login/login.wxss */
+page{
+  height: 100%;
+}
+.index{
+ display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+.logo{
+  margin: auto; 
+  }
+  .logo image{
+    width:64px;
+    height:64px;
+  }
+  .Form{
+    flex: 2;
+    margin: 30px 25px;
+  }
+   .Form input{
+    flex: 6;
+  }
+  .phone{
+    display: flex;
+    border-bottom: 1px solid #CCC;
+    height:40px;
+  }
+ .svg{
+    flex: 1;
+    width: 12pt;
+    height: 16pt;
+  }
+ .Delete{
+    flex: 1;
+    width: 10pt;
+    height: 12pt;
+    position: relative;
+    top:4px;
+  }
+ 
+  .pwd{
+    display: flex;
+    border-bottom: 1px solid #CCC;
+    height: 30px;
+    margin-top: 10px;
+  }
+
+  .btn{
+    border-radius: 30px;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #FFF;
+    background: rgba(0, 150, 134, 0.6);
+  }
+  .Other{
+    color: rgba(148, 148, 148);
+    margin-top: 20px;
+    font-size: 12px;
+  }
+
+  .Footer{
+    flex: 2;
+    overflow:hidden;
+    position: relative;
+  }
+   .Footer  .Footer_bg{
+     height:701px; 
+     width: 108%;
+     position: relative;
+     top:-525px;
+     z-index: 1;
+   }
