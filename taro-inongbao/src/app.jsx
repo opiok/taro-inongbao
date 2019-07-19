@@ -3,6 +3,11 @@ import Index from './pages/index'
 
 import './app.scss'
 
+// 引入 taro-ui
+import 'taro-ui/dist/style/index.scss' // 引入组件样式
+// import { AtButton } from 'taro-ui'
+// 除了引入所需的组件，还需要手动引入组件样式
+
 // 如果需要在 h5 环境中开启 React Devtools
 // 取消以下注释：
 // if (process.env.NODE_ENV !== 'production' && process.env.TARO_ENV === 'h5')  {
@@ -10,11 +15,8 @@ import './app.scss'
 // }
 
 class App extends Component {
-
   config = {
-    pages: [
-      'pages/index/index'
-    ],
+    pages: ['pages/index/index'],
     window: {
       backgroundTextStyle: 'light',
       navigationBarBackgroundColor: '#fff',
@@ -23,20 +25,18 @@ class App extends Component {
     }
   }
 
-  componentDidMount () {}
+  componentDidMount() {}
 
-  componentDidShow () {}
+  componentDidShow() {}
 
-  componentDidHide () {}
+  componentDidHide() {}
 
-  componentDidCatchError () {}
+  componentDidCatchError() {}
 
   // 在 App 类中的 render() 函数没有实际作用
   // 请勿修改此函数
-  render () {
-    return (
-      <Index />
-    )
+  render() {
+    return <Index />
   }
 }
 
